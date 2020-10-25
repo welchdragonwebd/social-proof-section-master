@@ -1,0 +1,105 @@
+<!--use id for each box in order to create different absolute positions -->
+.container{
+  height: 800px;
+  width:1440px;
+  font-family: 'Spartan', sans-serif;
+}
+.intro{
+  padding: 5px 5px 5px 5px;
+  margin:100px 100px 100px 150px;
+  height:250px;
+  width:400px;
+}
+.intro h1{
+  font-family: 'Spartan', sans-serif;
+  font-weight: 700;color:#53184e;
+}
+.intro p{color:hsl(303, 10%, 53%);}
+.ratingone{
+  width:400px;
+  height:20px;
+  position:absolute;
+  top:150px;
+  right:200px;
+  background-color: hsl(300, 24%, 96%);
+  padding:5px 5px 5px 5px;
+}
+.ratingtwo{
+  width:400px;
+  height:20px;
+  position:absolute;
+  top:190px;
+  right:180px;
+  background-color: hsl(300, 24%, 96%);
+  padding:5px 5px 5px 5px;
+}
+.ratingthree{
+  width:400px;
+  height:20px;
+  position:absolute;
+  top:230px;
+  right:160px;
+  background-color: hsl(300, 24%, 96%);
+  padding:5px 5px 5px 5px;
+}
+.colton{
+  height:240px;
+  width:350px;
+  float: left;
+  margin-left: 150px;
+  margin-top:10px;
+  background-color:#511f50;
+  border-radius: 5%;}
+.colton img{
+  border-radius: 50%;
+  padding:5px 5px 5px 5px;}
+.colton h3{
+  margin-left: 100px;
+  margin-top: -60px;
+  color:white;}
+.colton p{
+  padding-left: 20px;
+  padding-top: 60px;
+  color:grey;}
+.colton spam{
+  color:hsl(333, 80%, 67%);}
+.irene{
+  height:240px;
+  width:350px;
+  float: left;
+  margin-left: 50px;
+  margin-top:30px;
+  background-color:#511f50;
+  border-radius: 5%;}
+.irene img{
+  border-radius: 50%;
+  padding:5px 5px 5px 5px;}
+.irene h3{
+  margin-left:100px;
+  margin-top:-60px;
+  color:white;}
+.irene spam{color:hsl(333, 80%, 67%);}
+.irene p{
+  padding-left:20px;
+  padding-top:60px;
+  color:grey;}
+.anne{
+  height:240px;
+  width:350px;
+  float: left;
+  margin-left: 50px;
+  margin-top:50px;
+  background-color:#511f50;
+  border-radius: 5%;}
+.anne img{
+  border-radius: 50%;
+  padding:5px 5px 5px 5px;}
+.anne h3{
+  margin-left:100px;
+  margin-top:-60px;
+  color:white;}
+.anne spam{color:hsl(333, 80%, 67%);}
+.anne p{
+  padding-left:20px;
+  padding-top:60px;
+  color:grey;}
